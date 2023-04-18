@@ -1,0 +1,11 @@
+{
+  "words": [
+    "browserslist",
+    "DITUS",
+    "lcov",
+    "Roadmap"
+  ],
+  "ignorePaths": [
+    ".vscode"
+  ]
+}
