@@ -1,8 +1,8 @@
-# @ditus/react-translate
+# @ditus/react-translation
 
-[![License: MIT](https://img.shields.io:/github/license/ditus-software/react-translate)](LICENSE.md)
-[![build/test](https://github.com/ditus-software/react-translate/actions/workflows/node.js.yml/badge.svg?branch=master)](https://github.com/ditus-software/react-translate/actions/workflows/node.js.yml)
-[![Coverage Status](https://coveralls.io/repos/github/ditus-software/react-translate/badge.svg?branch=master)](https://coveralls.io/github/ditus-software/react-translate?branch=master)
+[![License: MIT](https://img.shields.io:/github/license/ditus-software/react-translation)](LICENSE.md)
+[![build/test](https://github.com/ditus-software/react-translation/actions/workflows/node.js.yml/badge.svg?branch=main)](https://github.com/ditus-software/react-translation/actions/workflows/node.js.yml)
+[![Coverage Status](https://coveralls.io/repos/github/ditus-software/react-translation/badge.svg?branch=main)](https://coveralls.io/github/ditus-software/react-translation?branch=main)
 [![contributor covenant](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg)](CODE-OF-CONDUCT.md)
 
 This repo contains a React context and other components that allow child
@@ -12,12 +12,12 @@ remain so.
 ## Installation
 
 ```bash
-npm i @ditus/react-translate
+npm i @ditus/react-translation
 ```
 
 ## Roadmap
 
-See the [open issues](https://github.com/ditus-software/react-translate/issues)
+See the [open issues](https://github.com/ditus-software/react-translation/issues)
 for a list of proposed features (and known issues).
 
 ## License
