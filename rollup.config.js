@@ -3,15 +3,24 @@ import commonjs from '@rollup/plugin-commonjs';
 import replace from '@rollup/plugin-replace';
 import postcss from 'rollup-plugin-postcss';
 import { terser } from 'rollup-plugin-terser';
+import typescript from 'rollup-plugin-typescript2'
 import pkg from './package.json';
 
 export default {
   input: 'src/index.js',
-  output: {
-    file: pkg.main,
-    format: 'cjs',
-    sourcemap: true,
-  },
+  output: [
+    {
+      file: pkg.main,
+      format: 'cjs',
+      sourcemap: true,
+    },
+    {
+      file: pkg.module,
+      format: 'es',
+      exports: 'named',
+      sourcemap: true,
+    },
+  ],
   plugins: [
     terser(),
     postcss({
@@ -32,6 +41,10 @@ export default {
     }),
     commonjs({
       extensions: ['.jsx', '.js'],
+    }),
+    typescript({
+      rollupCommonJSResolveHack: false,
+      clean: true,
     }),
   ],
 };
